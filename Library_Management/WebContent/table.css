@@ -1,0 +1,144 @@
+<STYLE>
+TABLE
+{
+    BORDER-RIGHT: #363 1px solid;
+    BORDER-TOP: #363 1px solid;
+    FONT-SIZE: 0.75em;
+    BORDER-LEFT: #363 1px solid;
+    LINE-HEIGHT: 2em;
+    BORDER-BOTTOM: #363 1px solid;
+    FONT-FAMILY: verdana, arial, sans-serif;
+    BORDER-COLLAPSE: collapse
+}
+TD
+{
+    PADDING-RIGHT: 0.5em;
+    BORDER-TOP: #ddd 1px solid;
+    PADDING-LEFT: 0.5em;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+TH
+{
+    PADDING-RIGHT: 0.5em;
+    BORDER-TOP: #ddd 1px solid;
+    PADDING-LEFT: 0.5em;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+TR.odd
+{
+    BACKGROUND: #eee
+}
+TH
+{
+    BACKGROUND: #839965
+}
+CAPTION
+{
+    FONT-SIZE: 1.15em;
+    COLOR: #363;
+    FONT-FAMILY: georgia, "times new roman", serif;
+    
+}
+TFOOT
+{
+    BORDER-RIGHT: #ddd 1px solid;
+    PADDING-RIGHT: 0.25em;
+    BORDER-TOP: #ddd 1px solid;
+    FONT-SIZE: 3em;
+    BORDER-LEFT: #ddd 1px solid;
+    COLOR: #363;
+    LINE-HEIGHT: 2em;
+    BORDER-BOTTOM: #ddd 1px solid;
+    FONT-FAMILY: georgia, "times new roman", serif;
+    HEIGHT: 2em;
+    TEXT-ALIGN: right
+}
+TFOOT TH
+{
+    FONT-WEIGHT: normal;
+    BACKGROUND: #fff;
+    COLOR: #363
+}
+THEAD TR
+{
+    COLOR: #fff;
+    HEIGHT: 4em
+}
+THEAD TR TH:unknown
+{
+    BORDER-RIGHT: #000 1px solid;
+    PADDING-RIGHT: 1.5em;
+    COLOR: #fc6;
+    TEXT-ALIGN: right
+}
+TBODY TH
+{
+    BORDER-RIGHT: #fff 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #000 1px solid;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: middle;
+    WIDTH: 6em;
+    PADDING-TOP: 0px
+}
+TBODY TR.odd TH
+{
+    BORDER-RIGHT: #eee 1px solid
+}
+TBODY TD
+{
+    VERTICAL-ALIGN: middle;
+    COLOR: #363;
+    HEIGHT: 2em
+}
+TBODY TH A
+{
+    BORDER-RIGHT: #fc3 0.8em solid;
+    PADDING-RIGHT: 0.5em;
+    BORDER-TOP: #839965 0.8em solid;
+    FONT-WEIGHT: normal;
+    FLOAT: right;
+    COLOR: #fc3;
+    BORDER-BOTTOM: #839965 0.8em solid;
+    TEXT-ALIGN: right;
+    TEXT-DECORATION: none
+}
+TBODY TR TH A:visited
+{
+    BORDER-RIGHT: #fff 0.8em solid
+}
+TBODY TR.odd TH A:visited
+{
+    BORDER-RIGHT: #eee 0.8em solid
+}
+TBODY TD A:visited
+{
+    FONT-WEIGHT: normal;
+    COLOR: #000;
+  
+}
+TBODY TD A
+{
+    FONT-WEIGHT: normal;
+    COLOR: #000
+}
+TBODY TR TH A:hover
+{
+    BORDER-RIGHT: #fff 0.8em solid;
+    COLOR: #fff
+}
+TBODY TR.odd TH A:hover
+{
+    BORDER-RIGHT: #eee 0.8em solid;
+    COLOR: #fff
+}
+TBODY TD A:hover
+{
+    FONT-WEIGHT: normal;
+    COLOR: #c00;
+    TEXT-DECORATION: none
+}
+</STYLE>

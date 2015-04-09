@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- Configuration for the default package. -->
+	<package name="default" namespace="/" extends="struts-default">
+	<global-results>
+		  <result name="SQL">/Jsp/NullPointer.jsp</result>
+  		  <result name="NumberFormat">/Jsp/NumberFormat.jsp</result>
+  		 <!--  <result name="error">/Jsp/error.jsp</result> -->
+  	
+  	</global-results>
+    <global-exception-mappings>
+    <exception-mapping exception="java.sql.SQLException" result="SQL"/>
+    	<exception-mapping exception="java.lang.NumberFormatException" result="NumberFormat"/>
+    	<exception-mapping exception=" java.lang.NullPointerException" result="NumberFormat"/>
+       <!-- <exception-mapping exception="java.lang.Exception" result="error"/> --> 
+    </global-exception-mappings>
+		
+		<action name="logout">
+			<result name="success">/Jsp/Login.jsp</result>
+		</action>
+		<action name="librarianHome">
+			<result name="success">/Jsp/LibrarianHome.jsp</result>
+		</action>
+		<action name="studentHome">
+			<result name="success">/Jsp/StudentHome.jsp</result>
+		</action>
+		<action name="Login">
+			<result>/Jsp/Login.jsp</result>
+		</action>
+		<action name="SendMails" class="Actions.SendMailAction">
+			<result name="success">/Jsp/MailsSent.jsp</result>
+			<result name="error">/Jsp/mailsNotSent.jsp</result>
+		</action>
+		<action name="LoginAction" class="Actions.LoginAction">
+			<result name="librarian">/Jsp/LibrarianHome.jsp</result>
+			<result name="student">/Jsp/StudentHome.jsp</result>
+			<result name="error">/Jsp/Login.jsp</result>
+			<result name="input">/Jsp/Login.jsp</result>
+			
+		</action>
+		<action name="Inventry">
+			<result>/Jsp/books_inventry.jsp</result>
+		</action>
+		<action name="searchBook" class="Actions.SearchBookAction">
+			<result>/Jsp/books_transaction.jsp</result>			
+		</action>
+		<action name="Registration" class="Actions.showBookRequestDetails">
+			<result>/Jsp/searchBookRequestResult.jsp</result>
+		</action>
+		
+		<action name="registerRequestAction" class="Actions.registerRequestAction">
+			<result name="success">/Jsp/searchBookRequestSuccess.jsp</result>
+			<result name="error">/Jsp/registerError.jsp </result>
+		</action>
+		<action name="Transaction">
+			<result>/Jsp/TransactionHome.jsp</result>
+		</action>
+		
+		<action name="AddBook" class="Actions.GenerateIdAction">
+			<result>/Jsp/books_add.jsp</result>
+			<result name="input">/Jsp/books_add.jsp</result>
+		  
+		</action>
+		<action name="ModifyBook">
+			<result>/Jsp/books_modify.jsp</result>
+		</action>
+		
+		<action name="showModifyAction" class="Actions.showBookModifyAction">
+			<result>/Jsp/book_modify.jsp</result>
+			<result name="input">/Jsp/books_modify.jsp</result>
+			<result name="error">/Jsp/modify_error.jsp</result>
+		</action>
+				
+		<action name="ModifyAction" class="Actions.BookModifyAction">
+			<result>/Jsp/book_modified.jsp</result>
+		</action>
+		
+<!--		<action name="showModifyDetailsAction" class="Actions.BookModifyListAction">-->
+<!--			<result>/Jsp/book_modify_list.jsp</result>-->
+<!--		</action>-->
+		
+		<action name="DeleteBookAction" class="Actions.DeleteBookAction">
+			<result name="success">/Jsp/book_deleted.jsp</result>
+			<result name="error">/Jsp/error.jsp</result>
+			<result name="input">/Jsp/books_delete.jsp</result>
+		</action>
+		<action name="DeleteBook">
+			<result>/Jsp/books_delete.jsp</result>
+		</action>
+		
+		<action name="DeletePending" class="Actions.cancelRequest">
+			<result>/Jsp/pending_requests_deleted.jsp</result>
+		</action>
+		
+		<action name="BookAddedAction" class="Actions.AddBookAction">
+			<result>/Jsp/book_added.jsp</result>
+			<result name="input">/Jsp/books_add.jsp</result>
+		</action>
+		<action name="issue">
+			<result>/Jsp/books_request.jsp</result>
+		</action>
+		<action name="issueAction" class="Actions.issueAction">
+			<result name="requestChecked">/Jsp/books_issue.jsp</result>
+			<result name="success">/Jsp/book_Issued.jsp</result>
+			<result name="error">/Jsp/error.jsp</result>
+			<result name="input">/Jsp/books_request.jsp</result>
+		</action>
+		<action name="return">
+			<result>/Jsp/books_return.jsp</result>
+		</action>
+		<action name="returnAction" class="Actions.returnAction">
+			<result name="success">/Jsp/book_returned.jsp</result>
+			<result name="error">/Jsp/Error_return.jsp</result>
+			<result name="input">/Jsp/books_return.jsp</result>
+			
+		</action>
+		
+	</package>
+</struts>

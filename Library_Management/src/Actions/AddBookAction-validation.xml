@@ -1,0 +1,38 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+       "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+   <field name="book_name">
+   <field-validator type="requiredstring">
+   
+    <message>Enter book name </message>
+      </field-validator>
+  </field>
+  
+  
+  
+   <field name="author1">
+   <field-validator type="requiredstring">
+   
+    <message>Enter author name </message>
+      </field-validator>
+  </field>
+  
+  
+  
+   <field name="publisher">
+   <field-validator type="requiredstring">
+   
+    <message>Enter publisher name </message>
+      </field-validator>
+  </field>
+  
+  
+   <field name="year_of_publication">
+   <field-validator type="requiredstring">
+   
+    <message>Enter year of publication</message>
+      </field-validator>
+  </field>
+  
+
+</validators>

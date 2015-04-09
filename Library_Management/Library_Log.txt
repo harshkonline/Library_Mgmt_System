@@ -1,0 +1,58 @@
+INFO - Book registerd (insert into books_registration_300 values('1012',5,'103','12-JAN-2011','Y')) On Wed Jan 12 22:46:29 GMT+05:30 2011
+INFO - Book issued (insert into books_transaction_300 values('506','1008',(SYSDATE),(SYSDATE +14),0,'Y')) On Wed Jan 12 22:46:55 GMT+05:30 2011
+INFO - Book returned (UPDATE books_inventry_300 SET status='Y' WHERE book_id=8) On Wed Jan 12 22:47:21 GMT+05:30 2011
+INFO - Book registerd (insert into books_registration_300 values('1013',4,'103','13-JAN-2011','Y')) On Thu Jan 13 09:21:38 GMT+05:30 2011
+INFO - Book issued (insert into books_transaction_300 values('507','1007',(SYSDATE),(SYSDATE +14),0,'Y')) On Thu Jan 13 09:23:05 GMT+05:30 2011
+INFO - Book registerd (insert into books_registration_300 values('1014',5,'null','13-JAN-2011','Y')) On Thu Jan 13 09:35:26 GMT+05:30 2011
+INFO - Book registerd (insert into books_registration_300 values('1015',6,'103','13-JAN-2011','Y')) On Thu Jan 13 10:01:22 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:04:46 GMT+05:30 2011
+INFO - Book modified:Book ID:1,Book Name:C' Author:BALGURUSWAMI On Thu Jan 13 10:04:46 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:05:04 GMT+05:30 2011
+INFO - Book modified:Book ID:2,Book Name:C++' Author:BALGURUSWAMI On Thu Jan 13 10:05:04 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:05:27 GMT+05:30 2011
+INFO - Book modified:Book ID:3,Book Name:DATA STRUCTURE' Author:BALUJA On Thu Jan 13 10:05:27 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:05:51 GMT+05:30 2011
+INFO - Book modified:Book ID:4,Book Name:COMPUTER NETWORK' Author:TANENBAUM On Thu Jan 13 10:05:52 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:06:04 GMT+05:30 2011
+INFO - Book modified:Book ID:5,Book Name:ORACLE' Author:JOHN On Thu Jan 13 10:06:04 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:06:19 GMT+05:30 2011
+INFO - Book modified:Book ID:6,Book Name:ORACLE 9I' Author:JOHN On Thu Jan 13 10:06:20 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:07:15 GMT+05:30 2011
+INFO - Book modified:Book ID:7,Book Name:CORE JAVA' Author:BALGURUSWAMI On Thu Jan 13 10:07:15 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:07:35 GMT+05:30 2011
+INFO - Book modified:Book ID:8,Book Name:ADVANCED JAVA' Author:ALEX On Thu Jan 13 10:07:35 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:07:48 GMT+05:30 2011
+INFO - Book modified:Book ID:8,Book Name:ADVANCED JAVA' Author:ALEX On Thu Jan 13 10:07:48 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:08:04 GMT+05:30 2011
+INFO - Book modified:Book ID:9,Book Name:STRUTS' Author:MICHEL On Thu Jan 13 10:08:06 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:08:25 GMT+05:30 2011
+INFO - Book modified:Book ID:10,Book Name:SERVLETS' Author:LINCON On Thu Jan 13 10:08:25 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:18:35 GMT+05:30 2011
+INFO - Book modified:Book ID:1,Book Name:c' Author:balaguruswami On Thu Jan 13 10:18:36 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:18:55 GMT+05:30 2011
+INFO - Book modified:Book ID:2,Book Name:c++' Author:balaguruswami On Thu Jan 13 10:18:55 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:19:13 GMT+05:30 2011
+INFO - Book modified:Book ID:3,Book Name:data structure' Author:baluja On Thu Jan 13 10:19:13 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:19:42 GMT+05:30 2011
+INFO - Book modified:Book ID:4,Book Name:computer network' Author:tanenbaum On Thu Jan 13 10:19:42 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:20:04 GMT+05:30 2011
+INFO - Book modified:Book ID:5,Book Name:oracle' Author:john On Thu Jan 13 10:20:04 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:20:20 GMT+05:30 2011
+INFO - Book modified:Book ID:6,Book Name:oracle 9i' Author:john On Thu Jan 13 10:20:20 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:20:43 GMT+05:30 2011
+INFO - Book modified:Book ID:7,Book Name:core java' Author:herbert sheild On Thu Jan 13 10:20:43 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:21:05 GMT+05:30 2011
+INFO - Book modified:Book ID:8,Book Name:advance java' Author:alex On Thu Jan 13 10:21:05 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:21:23 GMT+05:30 2011
+INFO - Book modified:Book ID:9,Book Name:struts' Author:micheal On Thu Jan 13 10:21:23 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:21:44 GMT+05:30 2011
+INFO - Book modified:Book ID:10,Book Name:servlets' Author:lincon On Thu Jan 13 10:21:46 GMT+05:30 2011
+INFO - Book deleted (DELETE FROM books_inventry_300 WHERE book_id=11) On Thu Jan 13 10:23:25 GMT+05:30 2011
+INFO - Book registerd (insert into books_registration_300 values('1016',5,'103','13-JAN-2011','Y')) On Thu Jan 13 10:34:13 GMT+05:30 2011
+INFO - Book added (INSERT into books_inventry_300 values(11,'c','dennis','','india pub','1998','Y')) On Thu Jan 13 10:38:03 GMT+05:30 2011
+INFO - Book added:Book ID:11,Book Name:c' Author:dennis On Thu Jan 13 10:38:03 GMT+05:30 2011
+INFO - Book modified (update books_inventry_300 set book_id=?,book_name=?,author1=?,author2=?,publisher=?,year_of_publication=?,status=? where book_id=?) On Thu Jan 13 10:40:35 GMT+05:30 2011
+INFO - Book modified:Book ID:11,Book Name:c' Author:dennis On Thu Jan 13 10:40:35 GMT+05:30 2011
+INFO - Book deleted (DELETE FROM books_inventry_300 WHERE book_id=11) On Thu Jan 13 10:41:17 GMT+05:30 2011
+INFO - Book issued (insert into books_transaction_300 values('508','1011',(SYSDATE),(SYSDATE +14),0,'Y')) On Thu Jan 13 10:42:29 GMT+05:30 2011
+INFO - Book registerd (insert into books_registration_300 values('1017',2,'103','13-JAN-2011','Y')) On Thu Jan 13 10:55:47 GMT+05:30 2011
